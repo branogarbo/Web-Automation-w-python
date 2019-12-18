@@ -25,9 +25,9 @@ for i in range(2):
 
 roombuttons = browser.find_elements_by_css_selector('.room > button')
 
-# for roombutt in roombuttons and i in range(3):   doesnt work
-#   roombutt.click()
-
 for i in range(3):
   for roombutt in roombuttons:
     roombutt.click()
+
+sleep(1)
+browser.close()
