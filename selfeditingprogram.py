@@ -3,20 +3,20 @@ from time import sleep
 
 sleep(1)
 
-it = 1
+it = 0
 
-print(f'edit {it-1}')
+print(f'edit {it}')
 
 sleep(1)
 
-gui.hotkey('ctrl','winleft','down')
+gui.hotkey('ctrl','win','down')
 gui.moveTo(566,282,0.5)
 gui.click()
 gui.typewrite('+1')
 
 gui.hotkey('ctrl','s')
 
-gui.moveTo(1067,1473,0.5)
+gui.moveTo(1080,1472,0.5)
 gui.click()
 
 sleep(0.5)
