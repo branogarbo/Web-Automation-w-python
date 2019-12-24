@@ -3,7 +3,7 @@ from time import sleep
 
 sleep(1)
 
-it = 0
+it = 0+1+1+1
 
 print(f'edit {it}')
 
